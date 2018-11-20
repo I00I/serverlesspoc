@@ -31,7 +31,7 @@ export class TableComponent implements OnInit {
       container: this.blobStorage.firmId,
       filename:  this.blobStorage.engagementId + '/imported/' + 'import.xlsx',
       storageAccessToken:
-        '?sv=2017-11-09&ss=bfqt&srt=sco&sp=rwdlacup&se=2018-12-31T13:28:26Z&st=2018-11-12T05:28:26Z&spr=https&sig=54R40OAazXG%2FPu6KiRlZ3MC%2F%2FysSHpVAgmN92vEdZqU%3D',
+        '?sv=2017-11-09',
       storageUri: 'https://storeless.blob.core.windows.net'
     };
 
