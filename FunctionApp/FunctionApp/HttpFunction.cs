@@ -21,9 +21,6 @@ namespace FunctionApp
 {
     public static class HttpFunction
     {
-        //private const string connString =
-        //    "DefaultEndpointsProtocol=https;AccountName=storeless;AccountKey=0apWHYI0kQsnkI9mYKsrHyYxV2LaDYpho29E1qptj7OuUkxJTV5mR8xuJTg3EuD58F/RZrKQkr1EQo058QsbEQ==;BlobEndpoint=https://storeless.blob.core.windows.net/;TableEndpoint=https://storeless.table.core.windows.net/;QueueEndpoint=https://storeless.queue.core.windows.net/;FileEndpoint=https://storeless.file.core.windows.net/";
-
         [FunctionName("HttpFunction")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)]
